@@ -7,7 +7,7 @@ dotenv.config();
 import useRoute from "./src/routes/user.route.js";
 
 const app = express();
-const port = process.env.PORT || 3000; // PEGA A PORTA DO SERVIDOR, SE NÃO TIVER, PEGA 3000
+const port = process.env.PORT || 3000;
 
 connectDatabase();
 app.use(express.json());
